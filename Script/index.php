@@ -75,7 +75,7 @@ if($settings['fbapp']) {
 
 $TMPL['url'] = $CONF['url'];
 $TMPL['year'] = date('Y');
-$TMPL['powered_by'] = 'Powered by <a href="http://phpsound.com" target="_blank">phpSound</a>.';
+$TMPL['powered_by'] = '';
 $TMPL['language'] = getLanguage($CONF['url'], null, 1);
 
 $skin = new skin('wrapper');
